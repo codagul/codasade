@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boostrap - Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" 
+    crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    </head>
+<body class="p-3 m-0 border-0">
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                &nbsp;
+            </div>
+            <div class="col-md-4">
+                <form>
+                    <div class="mb-3">
+                        <label for="iEmail" class="form-label">Correo:</label>
+                        <input type="email" class="form-control" name="iEmail" id="iEmail" aria-describedby="emailHelp">
+                        <p id="emailHelp" class="form-text">
+                            Nunca compartas tu correo con alguien más.
+                        </p>
+                    </div>
+                    <div class="mb-3">
+                        <label for="iPass" class="form-label">Contraseña:</label>
+                        <input type="password" name="iPass" id="iPass" class="form-control">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" name="iCheck" id="iCheck" class="form-check-input">
+                        <label for="iCheck" class="form-check-label">Recuerdame</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <div class="alert alert-danger mt-3" role="alert">Contraseña invalida</div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
